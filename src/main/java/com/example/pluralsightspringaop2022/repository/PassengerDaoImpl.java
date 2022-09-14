@@ -1,4 +1,6 @@
-package com.example.pluralsightspringaop2022;
+package com.example.pluralsightspringaop2022.repository;
+
+import com.example.pluralsightspringaop2022.model.Passenger;
 
 import java.util.HashMap;
 import java.util.Map;

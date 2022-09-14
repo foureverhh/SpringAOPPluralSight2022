@@ -1,6 +1,6 @@
 package com.example.pluralsightspringaop2022;
 
-import org.springframework.boot.SpringApplication;
+import com.example.pluralsightspringaop2022.repository.PassengerDao;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

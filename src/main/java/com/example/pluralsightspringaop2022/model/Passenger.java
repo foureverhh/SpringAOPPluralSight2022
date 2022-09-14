@@ -1,4 +1,4 @@
-package com.example.pluralsightspringaop2022;
+package com.example.pluralsightspringaop2022.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
