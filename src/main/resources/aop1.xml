@@ -7,9 +7,9 @@
                            http://www.springframework.org/schema/aop
                            http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
     <bean id="passengerDao" class="com.example.pluralsightspringaop2022.repository.PassengerDaoImpl"/>
-    <bean id="loggingAspect" class="com.example.pluralsightspringaop2022.aspect.LoggingAspect"/>
+    <bean id="loggingAspect" class="com.example.pluralsightspringaop2022.aspect.LoggingAspect1"/>
     <aop:config>
-        <aop:aspect id="loggingAspect" ref="loggingAspect">
+        <aop:aspect id="loggingAspect1" ref="loggingAspect">
             <aop:pointcut id="passengerMethod"
                           expression="execution(* com.example.pluralsightspringaop2022.*.*.*(..))"/>
                 <aop:before pointcut-ref="passengerMethod" method="before"/>

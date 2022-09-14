@@ -9,7 +9,8 @@ public class PluralSightSpringAop2022Application {
 
     public static void main(String[] args) {
         //SpringApplication.run(PluralSightSpringAop2022Application.class, args);
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("aop.xml");
+        // ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("aop1.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("aop2.xml");
         PassengerDao passengerDao = (PassengerDao) context.getBean("passengerDao");
         System.out.println(passengerDao.getPassenger(1));
         context.close();
